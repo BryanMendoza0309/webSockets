@@ -21,7 +21,7 @@ class MessageEvent implements ShouldBroadcast
      */
     public function __construct($message)
     {
-        $this->message;
+        $this->message=$message;
     }
 
     /**
